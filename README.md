@@ -6,5 +6,14 @@ ASP.NET 학습 리포지토리
 - 웹 기본
 	- HTTP
 	- 웹 기본 구조 (HTML5, CSS3, JavaScript)
-	- HTML5 기본
+	- HTML5 기본 및 입력 양식 태그 
+	- css 기본
+	- javascript 기본 및 Dom
+	
+## 2일차 
+- 웹 기본
+	- javascript Dom
+	- jQeury
+	- Bootstrap
+	- 웹페이지 프로젝트 
 	
