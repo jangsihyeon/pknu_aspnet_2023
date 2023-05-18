@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!--boostrap용 CSS CDN-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!--boostrap용 icon css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--jQuery CSS CDN-->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"
+        integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        // jQuery로 온로드할때 방식 => 좀더 편함
+        $(document).ready(function () {
+            // 여기에 로직 
+        });
+    </script>
+</head>
+
+<body>
+    <!--TOP 메뉴-->
+    <!-- <div id="header" data-bs-theme="dark" class="fixed-top"> -->
+    <div id="header" data-bs-theme="dark">
+        <div class="collapse text-bg-dark bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 py-3">
+                        <h4>About</h4>
+                        <p class="text-secondary">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore beatae cumque accusamus
+                            itaque officia aperiam nihil molestiae quibusdam porro optio.
+                        </p>
+                    </div>
+                    <div class="col-sm-4 py3">
+                        <h4>Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Twitter</a></li>
+                            <li><a href="#" class="text-white">FaceBook</a></li>
+                            <li><a href="#" class="text-white">Email me</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <i class="bi bi-camera"></i>&nbsp;
+                    <b>Album</b>
+                </a>
+                <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse"
+                    data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="true"
+                    aria-albel="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <!--Main 영역-->
+        <div id="main">
+            <div id="section" class="py-5 text-center container">
+                <div class="row py-5">
+                    <div class="col-6 mx-auto">
+                        <h1 class="fw-light">Album example</h1>
+                        <p class="lead text-body-secondary">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam, dolor fugit. Molestias,
+                            adipisci dolorum necessitatibus ducimus veniam quasi saepe voluptate.
+                        </p>
+                        <p>
+                            <a href="#" class="btn btn-primary my-2">Main action</a>
+                            <a href="#" class="btn btn-secondary my-2">secondary action</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+</html>

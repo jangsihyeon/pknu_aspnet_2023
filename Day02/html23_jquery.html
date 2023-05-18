@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>jQuery</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script>
+        // jQuery로 온로드 할 때 방식
+        $(document).ready(function () {
+          // 여기에 로직을 적으면 됨
+            $('input').click(function(){
+                $('.page').fadeToggle(500);
+            });
+
+            $('.box').css({
+                width:'100px',
+                height:'100px',
+                backgroundColor:'red'
+
+            }).animate({
+                width: '500px',
+                opacity: 0.5
+            }, 1500)
+           });
+    </script>
+</head>
+<body>
+    <input type="button" value="Toggle">
+    <div class="page">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore vitae eius id magni sed optio obcaecati sapiente, porro culpa saepe eum similique vel dicta, voluptas explicabo debitis commodi amet dolorum! Commodi consectetur voluptatum id molestiae doloribus impedit accusantium, eius, explicabo eaque placeat quibusdam doloremque! Totam sequi maiores possimus quos? Quibusdam laudantium iusto id accusamus reprehenderit illo, unde odit mollitia iure deleniti eaque repudiandae consectetur libero cumque nesciunt fuga obcaecati dolorum provident? Dicta animi illum, consequuntur accusantium nisi in assumenda soluta repellat atque tempore. Quas, molestias corrupti, eos iste earum eligendi optio odio ad itaque architecto culpa adipisci debitis labore autem!</p>
+    </div>
+</body>
+</html>
