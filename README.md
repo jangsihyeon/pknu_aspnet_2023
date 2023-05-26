@@ -64,4 +64,16 @@ bootstrap 웹페이지 클로닝
 - ASP.NET RestAPI
 - 개인포트폴리오 
 	- 부트스트랩 테마 재적용
-	
+
+<img 
+src=>
+
+## 9일차 
+- ASP.NET Core MVC
+	- SEO Dream 테마 완료 
+- ASP.NET RestAPI
+	- RestAPI Server
+	- WPF Client
+
+- 개인포트폴리오
+	- 부트스트랩 재적용

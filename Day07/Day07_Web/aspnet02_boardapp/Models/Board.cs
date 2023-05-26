@@ -9,7 +9,7 @@ namespace aspnet02_boardapp.Models
         [Key] // PK
         public int Id { get; set; }
 
-        [Required(ErrorMessage = "아이디를 입력하세요")] // Not Null
+        [Required(ErrorMessage = "아이디를 입력하세요")]   // Not Null
         [DisplayName("아이디")]
         public string UserId { get; set; }
         [DisplayName("이름")]
