@@ -65,8 +65,7 @@ bootstrap 웹페이지 클로닝
 - 개인포트폴리오 
 	- 부트스트랩 테마 재적용
 
-<img 
-src=>
+![aspnet06](https://github.com/jangsihyeon/pknu_aspnet_2023/assets/123913911/d34241e5-7363-4f1e-bb4f-26dbb1530e0b)
 
 ## 9일차 
 - ASP.NET Core MVC
