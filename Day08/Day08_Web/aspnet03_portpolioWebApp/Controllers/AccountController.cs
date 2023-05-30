@@ -24,6 +24,8 @@ namespace aspnet02_boardapp.Controllers
         [HttpGet]
         public IActionResult Register() 
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
             return View();
         }
 
@@ -66,6 +68,8 @@ namespace aspnet02_boardapp.Controllers
         [HttpGet]
         public IActionResult Login()
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
             return View();
         }
 
@@ -104,6 +108,8 @@ namespace aspnet02_boardapp.Controllers
         [HttpGet]
         public async Task<IActionResult> Profile(string userName)
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
             Debug.WriteLine(userName);
 
             var curUser = await _userManager.FindByNameAsync(userName);

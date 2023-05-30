@@ -70,7 +70,12 @@ bootstrap 웹페이지 클로닝
 ## 9일차 
 - ASP.NET Core MVC
 	- SEO Dream 테마 완료 
+		- 스크롤 되는 화면, 안되는 화면 메뉴 분리 
+		- 포트폴리오 동적관리 (이미지 업로드)
+		- IIS .net6.0 런타임 설치 
+	- 다른 bootstrap 테마를 적용
 - ASP.NET RestAPI
+	- openAPI와 유사한 서비스를 운영 
 	- RestAPI Server
 	- WPF Client
 

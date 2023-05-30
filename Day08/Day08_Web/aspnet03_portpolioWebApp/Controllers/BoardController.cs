@@ -20,6 +20,8 @@ namespace aspnet02_boardapp.Controllers
         // endcount = 10, 20, 30, 40, 50
         public IActionResult Index(int page = 1) // 게시판 최초화면 리스트
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
             // EntityFramework 로 작업해도 되고
             // IEnumerable<Board> objBoardList = _db.Boards.ToList(); // SELECT * 쿼리
             // SQL 쿼리로 작업해도 됨
@@ -59,6 +61,7 @@ namespace aspnet02_boardapp.Controllers
         [HttpGet]
         public IActionResult Create() // 게시판 글쓰기 // create 우클릭 뷰-추가
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
             return View();
         }
 
@@ -86,6 +89,8 @@ namespace aspnet02_boardapp.Controllers
         [HttpGet]
         public IActionResult Edit(int? Id)
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
             if (Id == null || Id == 0)
             {
                 return NotFound(); // Error.cshtml이 표시
@@ -117,7 +122,10 @@ namespace aspnet02_boardapp.Controllers
         // 삭제
         [HttpGet]
         public IActionResult Delete(int? Id)
-        {   // HttpGet Edit Action의 로직과 완전동일 
+        {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
+            // HttpGet Edit Action의 로직과 완전동일 
             if (Id == null || Id == 0)
             {
                 return NotFound(); // Error.cshtml이 표시
@@ -154,6 +162,8 @@ namespace aspnet02_boardapp.Controllers
         [HttpGet]
         public IActionResult Details(int? Id)
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
             if (Id == null || Id == 0)
             {
                 return NotFound(); // Error.cshtml이 표시

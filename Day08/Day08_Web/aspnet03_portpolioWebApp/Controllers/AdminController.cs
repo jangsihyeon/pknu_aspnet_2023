@@ -9,6 +9,7 @@ namespace aspnet02_boardapp.Controllers
 {
     public class AdminController : Controller
     {
+
         private readonly RoleManager<IdentityRole> _roleManager;
         private readonly UserManager<IdentityUser> _userManager;
 
@@ -21,6 +22,8 @@ namespace aspnet02_boardapp.Controllers
         [HttpGet]
         public IActionResult CreateRole()
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
             return View();
         }
 
@@ -53,6 +56,8 @@ namespace aspnet02_boardapp.Controllers
         [HttpGet]
         public IActionResult ListRoles() 
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
             var roles = _roleManager.Roles;
             return View(roles);
         }
@@ -60,6 +65,8 @@ namespace aspnet02_boardapp.Controllers
         [HttpGet]
         public async Task<IActionResult> EditRole(string id)
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
             var role = await _roleManager.FindByIdAsync(id);
             if(role==null)
             {
@@ -113,6 +120,8 @@ namespace aspnet02_boardapp.Controllers
         [HttpGet]
         public async Task<IActionResult> EditUsersInRole(string roleId)
         {
+            ViewData["NoScroll"] = "true";      // 게시판은 메인 스크롤이 안생김 
+
             ViewBag.roleId = roleId;
 
             var role = await _roleManager.FindByIdAsync(roleId);
