@@ -90,7 +90,7 @@ bootstrap 웹페이지 클로닝
 ## 10일차 
 - ASP.NET RestAPI
 	- RestAPI Server
-<Api 서버 이미지>
+<img src="https://raw.githubusercontent.com/jangsihyeon/pknu_aspnet_2023/main/img/api.png" width="700">
 
 ## 11일차 
 - ASP.NET RestAPI
