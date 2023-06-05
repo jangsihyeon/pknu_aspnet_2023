@@ -95,6 +95,9 @@ bootstrap 웹페이지 클로닝
 	- RestAPI Server 수정
 	- FrontEnd Server 작업계속
 	
+	개인 포폴 
+	http://210.119.12.76:8080/
+	
 ## 13일차 
 - ASP.NET RestAPI
 	- WPF 앱 연동
