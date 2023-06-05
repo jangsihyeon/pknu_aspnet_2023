@@ -38,7 +38,7 @@ bootstrap 웹페이지 클로닝
 - ASP.NET Core MVC
 	- 게시판 페이징까지 
 
-< 게시판 페이징 gif>	
+< trumbow gif>	
 
 ## 6일차 
 - ASP.NET Core MVC
@@ -51,11 +51,12 @@ bootstrap 웹페이지 클로닝
 - ASP.NET Core MVC
 	- 게시판 정리 (아이디 삭제 , 표시)
 	- 권한 관리 
-	- 부트스트랩 테마 적용
-	
-- ASP.NET RestAPI
-- 개인 포트폴리오 
-	- 부트스트랩 테마 재적용
+- 계정 및 권한 관리 
+	- 사용자별 권한 할당
+	- 관리자, 사용자 분리
+	- 관리자 게시글 모두 삭제 가능
+	- 프로필 수정
+<기능들은 아래 포트폴리오에 모두 삽입해놓았기 때문에 확인 가능 >
 
 ## 8일차 
 - ASP.NET Core MVC
@@ -80,10 +81,13 @@ bootstrap 웹페이지 클로닝
 	- WPF Client
 
 - 개인포트폴리오
-	- 부트스트랩 재적용
+	- 다른 테마 적용해서 개인 포트폴리오 사이트 작업 
+	- http://210.119.12.76:8080/
 	
 ## 10일차 
 - ASP.NET RestAPI
+	- RestAPI Server
+<Api 서버 이미지>
 
 ## 11일차 
 - ASP.NET RestAPI
@@ -94,9 +98,8 @@ bootstrap 웹페이지 클로닝
 - ASP.NET RestAPI
 	- RestAPI Server 수정
 	- FrontEnd Server 작업계속
-	
-	개인 포폴 
-	http://210.119.12.76:8080/
+- RestApi 사용 FrontEnd Web
+<img>
 	
 ## 13일차 
 - ASP.NET RestAPI
