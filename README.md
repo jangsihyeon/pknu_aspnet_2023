@@ -85,6 +85,7 @@ bootstrap 웹페이지 클로닝
 - 개인포트폴리오
 	- 다른 테마 적용해서 개인 포트폴리오 사이트 작업 
 	- http://210.119.12.76:8080/
+<img src="https://raw.githubusercontent.com/jangsihyeon/pknu_aspnet_2023/main/img/Final.gif" width="700">
 	
 ## 10일차 
 - ASP.NET RestAPI
