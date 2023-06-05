@@ -81,3 +81,24 @@ bootstrap 웹페이지 클로닝
 
 - 개인포트폴리오
 	- 부트스트랩 재적용
+	
+## 10일차 
+- ASP.NET RestAPI
+
+## 11일차 
+- ASP.NET RestAPI
+	- RestAPI Server 체크
+	- FrontEnd Server 작업
+
+## 12일차 
+- ASP.NET RestAPI
+	- RestAPI Server 수정
+	- FrontEnd Server 작업계속
+	
+## 13일차 
+- ASP.NET RestAPI
+	- WPF 앱 연동
+
+RestAPI 사용 WPf App 및 Web 화면 
+
+<img src 삽입 >
