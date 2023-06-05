@@ -24,7 +24,7 @@ ASP.NET 학습 리포지토리
 	- 핀터레스트 스타일 웹페이지 프로젝트 
 
 bootstrap 웹페이지 클로닝 
-<img = 앨범사이트 gif>
+<img src="https://raw.githubusercontent.com/jangsihyeon/pknu_aspnet_2023/main/img/Day03_album.gif" width="700">
 <img src="https://raw.githubusercontent.com/jangsihyeon/pknu_aspnet_2023/main/img/Pinterest.gif" width="700">
 
 ## 4일차
