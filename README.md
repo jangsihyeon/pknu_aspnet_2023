@@ -102,7 +102,7 @@ bootstrap 웹페이지 클로닝
 	- RestAPI Server 수정
 	- FrontEnd Server 작업계속
 - RestApi 사용 FrontEnd Web
-<img>
+<img src="https://raw.githubusercontent.com/jangsihyeon/pknu_aspnet_2023/main/img/restapi02.gif" width="700">
 	
 ## 13일차 
 - ASP.NET RestAPI
@@ -110,4 +110,4 @@ bootstrap 웹페이지 클로닝
 
 RestAPI 사용 WPf App 및 Web 화면 
 
-<img src 삽입 >
+<img src="https://raw.githubusercontent.com/jangsihyeon/pknu_aspnet_2023/main/img/restapi03.png" width="700">
