@@ -40,7 +40,7 @@ bootstrap 웹페이지 클로닝
 - ASP.NET Core MVC
 	- 게시판 페이징까지 
 
-< trumbow gif>	
+<img src="https://raw.githubusercontent.com/jangsihyeon/pknu_aspnet_2023/main/img/trumbow.gif" width="700">
 
 ## 6일차 
 - ASP.NET Core MVC
