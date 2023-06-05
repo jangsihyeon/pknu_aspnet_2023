@@ -25,7 +25,7 @@ ASP.NET 학습 리포지토리
 
 bootstrap 웹페이지 클로닝 
 <img = 앨범사이트 gif>
-<img = 핀터레스트 스타일 페이지 gif>
+[<img = 핀터레스트 스타일 페이지 gif>](https://github.com/jangsihyeon/pknu_aspnet_2023/blob/main/img/Pinterest.gif?raw=true)
 
 ## 4일차
 - ASP.NET Core MVC 
