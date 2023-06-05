@@ -32,7 +32,7 @@ bootstrap 웹페이지 클로닝
 	- ASP.NET 기본 
 	- ASP.NET 프로젝트 시작 
 	
-< img = 게시판 캡쳐>
+![MVC_Comm](https://github.com/jangsihyeon/pknu_aspnet_2023/assets/123913911/9bea2e10-55b8-481d-88cc-d3e0b65f163a)
 
 ## 5일차 
 - ASP.NET Core MVC
